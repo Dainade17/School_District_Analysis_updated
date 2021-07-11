@@ -1,6 +1,6 @@
 # School_District_Analysis_updated
 Overview:
-The purpose of this analysis is to understand the school performances based on 
+The purpose of this analysis is to understand the school performances after removing 9th graders of Thomas High School and analyzing the average scores based on school size and type
 
 - i) First we calculated the percentages of passing math, passing reading and passing overall by removing the math and reading scores for 9th graders studying in Thomas High School which technically means all 9th graders were marked as failed or not graded. 
 - This returned a very low percentages - \
@@ -11,7 +11,7 @@ The purpose of this analysis is to understand the school performances based on
 ![image](https://user-images.githubusercontent.com/85796900/125201847-e56e6880-e23e-11eb-8484-8fe146333ae2.png)
 
 - ii) Then, we reduced the total count of students studying in Thomas High School by subtracting the count of 9th graders from the total count i.e. we just considered 10th to 12th graders and reperformed our school data analysis that
--  This analysis returned a higher percentages which is more accurate-
+-  This analysis returned a higher percentages which is more accurate- \
       % Passing math = 93.18% \
   % Passing Reading = 97.01% \
   % Overall Passing = 90.63% 
